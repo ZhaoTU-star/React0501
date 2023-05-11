@@ -1,0 +1,36 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .select-wrapper {
+    display: inline-block;
+    margin: 10px;
+  }
+  .selected-item-wrapper {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .select-wrapper select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .select-wrapper select:focus {
+    border-color: #6e81e2;
+  }
+  
+  .result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
